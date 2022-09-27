@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./lib/css/bootstrap.min.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container text-center my-5">
+      <div class="row">
+        <div class="col">
+          <label for="inputA">A</label>
+          <input name="inputA" id="inputA" type="text" />
+        </div>
+        <div class="col">
+          <label for="inputB">B</label>
+          <input name="inputB" id="inputB" type="text" />
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="btn-group">
+          <button id="btn-sumar" class="btn btn-outline-primary">Sumar</button>
+          <button id="btn-restar" class="btn btn-outline-primary">Restar</button>
+          <button id="btn-multiplicar" class="btn btn-outline-primary">Multiplicar</button>
+          <button id="btn-dividir" class="btn btn-outline-primary">Dividir</button>
+        </div>
+      </div>
+      <div class="fs-4">
+        <p >El resultado es: <span id="resultado"></span></p>
+      </div>
+    </div>
+
+    <script src="./lib/js/bootstrap.bundle.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
