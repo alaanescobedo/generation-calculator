@@ -8,27 +8,39 @@
     <title>Calculator</title>
   </head>
   <body>
-    <div class="container text-center my-5">
-      <div class="row">
-        <div class="col">
-          <label for="inputA">A</label>
-          <input name="inputA" id="inputA" type="text" />
+    <div class="container w-50 justify-content-center text-center my-5">
+      
+      <!-- Inputs -->
+      <div class="row my-4">
+        <div class="col-sm input-group">
+          <label class="input-group-text" for="inputA">A</label>
+          <input class="form-control" name="inputA" id="inputA" type="text" />
         </div>
-        <div class="col">
-          <label for="inputB">B</label>
-          <input name="inputB" id="inputB" type="text" />
+        <div class="col-sm input-group">
+          <label class="input-group-text" for="inputB">B</label>
+          <input class="form-control" name="inputB" id="inputB" type="text" />
         </div>
       </div>
-      <div class="row text-center">
-        <div class="btn-group">
+
+      <!-- Botones -->
+       <div class="row my-4 text-center">
+        <div class="btn-group-sm">
           <button id="btn-sumar" class="btn btn-outline-primary">Sumar</button>
-          <button id="btn-restar" class="btn btn-outline-primary">Restar</button>
-          <button id="btn-multiplicar" class="btn btn-outline-primary">Multiplicar</button>
-          <button id="btn-dividir" class="btn btn-outline-primary">Dividir</button>
+          <button id="btn-restar" class="btn btn-outline-primary">
+            Restar
+          </button>
+          <button id="btn-multiplicar" class="btn btn-outline-primary">
+            Multiplicar
+          </button>
+          <button id="btn-dividir" class="btn btn-outline-primary">
+            Dividir
+          </button>
         </div>
       </div>
+
+      <!-- Resultado -->
       <div class="fs-4">
-        <p >El resultado es: <span id="resultado"></span></p>
+        <p>El resultado es: <span id="resultado"></span></p>
       </div>
     </div>
 

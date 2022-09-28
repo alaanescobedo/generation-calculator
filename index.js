@@ -13,7 +13,6 @@ const multiplicar = (a, b) => a * b;
 const dividir = (a, b) => a / b;
 
 $btnSumar.addEventListener("click", () => {
-  console.log('123')
   const a = Number($inputA.value);
   const b = Number($inputB.value);
   $resultado.textContent = sumar(a, b);
